@@ -1,0 +1,250 @@
+:root{
+    --primary-color: #2f4eb2;
+    --secondary-color: #0091ff;
+    --bg-color: #1c1c1f;
+    --white-color: #fff;
+}
+
+@keyframes fadeHeaderWord{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.25;
+}
+
+body{
+    position: relative;
+    color: var(--bg-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    padding: 75px 0;
+}
+
+.container{
+    padding: 0 5vh;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+header{
+    background-color: var(--bg-color);
+    height: 50vh;
+    position: relative;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-content-text{
+    background-color: var(--bg-color);
+    z-index: 9999;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 3rem;
+    color: var(--white-color);
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 15px;    
+}
+
+.header-subtitle{
+    color: var(--white-color);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header-word{
+    color: var(--white-color);
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 7s;
+}
+
+.header-word-fade{
+    opacity:0;
+}
+
+.about{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.portfolio-filter{
+    display: block;
+    margin: 0 auto 50px;
+    width: 50%;
+    border: 3px solid var(--bg-color);
+    border-radius: 15px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.portfolio-itens{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    justify-items: center;
+}
+
+.portfolio-item{
+    display: grid;
+    grid-template-rows: min-content auto;
+    box-shadow: 3px 4px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    min-height: 282px;
+    transition: opacity .5s, height .5s;
+}
+
+.portfolio-item-fade{
+    opacity: 0;
+    height: 0;
+}
+
+.portfolio-item-image{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.portfolio-item-content{
+    display: grid;
+    grid-template-rows: min-content min-content auto min-content;
+    text-align: center;
+    padding: 25px;
+}
+
+.portfolio-item-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-item-category{
+    margin-bottom: 15px;
+}
+
+.portfolio-item-category li{
+    display: inline-block;
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    min-width: 95px;
+    padding: 2.5px;
+    border-radius: 15px;
+    margin: 2px 2px;
+}
+
+.portfolio-item-links{
+    margin-top: 25px;
+    position: relative;
+}
+.portfolio-item-links::before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: var(--bg-color);
+    left: 50%;
+    top: -10px;
+    border-radius: 15px;
+    transform: translateX(-75px);
+}
+
+.portfolio-item-link{
+    display: inline-block;
+    width: 85px;
+    padding: 2.5px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin: 0 2px;
+    transition: background-color .5s;
+}
+
+.portfolio-item-link:hover{
+    background-color: var(--secondary-color);;
+}
+
+footer{
+    background-color: var(--bg-color);
+    padding: 25px 0;
+    text-align: center;
+    border-top: 5px solid var(--primary-color);
+    color: var(--white-color);
+}
+
+.footer-social-media li{
+    display: inline-block;
+}
+
+.footer-social-media i{
+    font-size: 3rem;
+    margin: 0 15px;
+    color: var(--white-color);
+    transition: color .5s;
+}
+
+.footer-social-media i:hover{
+    color: var(--secondary-color);
+}
+
+.footer-copy{
+    margin-top: 25px;
+    font-size: 1.25rem;
+}
+
+.footer-copy span{
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-filter{
+        font-size: 1.5rem;
+    }
+
+    .portfolio-itens{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portfolio-item{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .portfolio-itens{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container{
+        padding: 0;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
