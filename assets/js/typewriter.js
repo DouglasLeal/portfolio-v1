@@ -1,7 +1,22 @@
 
 let header = document.querySelector("header");
 
-let wordList = ["HTML", "CSS", "JavaScript", "React", "Node"];
+let wordList = [
+    "HTML", 
+    "CSS",
+    "Bootstrap", 
+    "JavaScript", 
+    "React", 
+    "Angular",
+    "Node",
+    "Express",
+    "C#",
+    ".NET",
+    "Dart",
+    "Flutter",
+    "Kotlin",
+    "Android"
+];
 
 let wordElementHeight = 20;
 let wordElementWidth = 160;
@@ -28,7 +43,7 @@ function createWord() {
 }
 
 function writeWordRandomly(word, element, counter = 1) {
-    let time = randomNumber(700, 300);
+    let time = randomNumber(300, 100);
 
     setTimeout(() => {
         element.innerText = word.slice(0, counter);
