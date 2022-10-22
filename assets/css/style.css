@@ -35,7 +35,9 @@ section{
 }
 
 .container{
-    padding: 0 5vh;
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .section-title{
@@ -133,17 +135,13 @@ header{
 .portfolio-item-content{
     display: grid;
     grid-template-rows: min-content min-content auto min-content;
+    gap: 10px;
     text-align: center;
     padding: 25px;
 }
 
 .portfolio-item-title{
     font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.portfolio-item-category{
-    margin-bottom: 15px;
 }
 
 .portfolio-item-category li{
@@ -170,7 +168,7 @@ header{
     left: 50%;
     top: -10px;
     border-radius: 15px;
-    transform: translateX(-75px);
+    transform: translateX(-50%);
 }
 
 .portfolio-item-link{
@@ -238,13 +236,5 @@ footer{
 @media screen and (min-width: 1400px) {
     .portfolio-itens{
         grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .container{
-        padding: 0;
-        max-width: 1920px;
-        margin: 0 auto;
     }
 }

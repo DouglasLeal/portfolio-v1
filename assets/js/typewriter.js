@@ -11,11 +11,7 @@ let wordList = [
     "Node",
     "Express",
     "C#",
-    ".NET",
-    "Dart",
-    "Flutter",
-    "Kotlin",
-    "Android"
+    ".NET"
 ];
 
 let wordElementHeight = 20;
