@@ -1,42 +1,26 @@
 [
     {
-        "title": "Título 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptatum magni nihil veritatis soluta quas hic quam quasi qui, illum ex porro labore tenetur eum aut, neque est doloremque ad?",
-        "image": "./assets/img/img-placeholder.jpg",
-        "category": ["HTML", "CSS"],
-        "urlGit": "urlGit",
-        "urlProd": "urlProd"
+        "title": "Jogo da Velha",
+        "description": "O bom e velho Jogo da Velha.",
+        "image": "./assets/img/velha.png",
+        "category": ["HTML", "CSS", "JavaScript"],
+        "urlGit": "https://github.com/DouglasLeal/jogo-da-velha",
+        "urlProd": "https://douglasleal.github.io/jogo-da-velha/"
     },
     {
-        "title": "Título 2",
-        "description": "Descrição 2",
-        "image": "./assets/img/img-placeholder.jpg",
-        "category": ["Flutter"],
-        "urlGit": "urlGit",
-        "urlProd": "urlProd"
+        "title": "Pedra, Papel e Tesoura por voz",
+        "description": "O clássico jogo Pedra, Papel e Tesoura controlado por voz.",
+        "image": "./assets/img/pedra.png",
+        "category": ["HTML", "CSS", "JavaScript"],
+        "urlGit": "https://github.com/DouglasLeal/pedra-papel-tesoura-voz",
+        "urlProd": "https://douglasleal.github.io/pedra-papel-tesoura-voz/"
     },
     {
-        "title": "Título 3",
-        "description": "Descrição 3",
-        "image": "./assets/img/img-placeholder.jpg",
-        "category": ["C#", "Angular"],
-        "urlGit": "urlGit",
-        "urlProd": ""
-    },
-    {
-        "title": "Título 4",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptatum magni nihil veritatis soluta quas hic quam quasi qui, illum ex porro labore tenetur eum aut, neque est doloremque ad?",
-        "image": "./assets/img/img-placeholder.jpg",
-        "category": ["JavaScript", "Node"],
-        "urlGit": "urlGit",
-        "urlProd": ""
-    },
-    {
-        "title": "Título 5",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptatum magni nihil veritatis soluta quas hic quam quasi qui, illum ex porro labore tenetur eum aut, neque est doloremque ad?",
-        "image": "./assets/img/img-placeholder.jpg",
-        "category": ["HTML", "CSS", "JavaScript", "Node"],
-        "urlGit": "urlGit",
-        "urlProd": ""
+        "title": "Pomodoro",
+        "description": "Aplicação para gerenciamento de tempo com a técnica Pomodoro.",
+        "image": "./assets/img/pomodoro.png",
+        "category": ["HTML", "CSS", "JavaScript"],
+        "urlGit": "https://github.com/DouglasLeal/pomodoro",
+        "urlProd": "https://douglasleal.github.io/pomodoro/"
     }
 ]

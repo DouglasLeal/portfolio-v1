@@ -65,6 +65,7 @@ function createPortfolio(projects) {
         let linkGit = document.createElement("a");
         linkGit.classList.add("portfolio-item-link");
         linkGit.href = project.urlGit;
+        linkGit.target = "_blank";
         linkGit.innerText = "Github";
 
         portfolioItem.append(itemImage);
@@ -77,6 +78,7 @@ function createPortfolio(projects) {
             let linkProd = document.createElement("a");
             linkProd.classList.add("portfolio-item-link");
             linkProd.href = project.urlProd;
+            linkProd.target = "_blank";
             linkProd.innerText = "Demo";
             itemLinks.append(linkProd);
         }
