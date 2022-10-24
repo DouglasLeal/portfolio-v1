@@ -1,5 +1,13 @@
 [
     {
+        "title": "Site Pessoal(estudo)",
+        "description": "Criação de site pessoal para estudo.",
+        "image": "./assets/img/site-pessoal.png",
+        "category": ["HTML", "CSS", "JavaScript"],
+        "urlGit": "https://github.com/DouglasLeal/site-pessoal-estudo",
+        "urlProd": "https://douglasleal.github.io/site-pessoal-estudo/"
+    },
+    {
         "title": "Jogo da Velha",
         "description": "O bom e velho Jogo da Velha.",
         "image": "./assets/img/velha.png",
