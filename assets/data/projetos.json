@@ -11,7 +11,7 @@
         "title": "Gama Academy - Desafio 1",
         "description": "Criação de site para empresa fictícia de educação financeira seguindo layout do figma entregue pelo designer.",
         "image": "./assets/img/gama-desafio1.png",
-        "category": ["HTML", "CSS", "JavaScript"],
+        "category": ["HTML", "CSS"],
         "urlGit": "https://github.com/Silvio-Arem/gamaxp-dindin",
         "urlProd": "https://silvio-arem.github.io/gamaxp-dindin/"
     },
