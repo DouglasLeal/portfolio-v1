@@ -16,6 +16,22 @@
         "urlProd": "https://silvio-arem.github.io/gamaxp-dindin/"
     },
     {
+        "title": "Gama Academy - Desafio 2",
+        "description": "Criação de site com conteúdo dinâmico e consumo de API.",
+        "image": "./assets/img/gama-desafio2.png",
+        "category": ["Javascript"],
+        "urlGit": "https://github.com/DouglasLeal/gamaxp-desafio2",
+        "urlProd": "https://douglasleal.github.io/gamaxp-desafio2/"
+    },
+    {
+        "title": "Gama Academy - Desafio 3",
+        "description": "Criação de uma API utilizando Node.js, Express e MySQL.",
+        "image": "./assets/img/api.png",
+        "category": ["Node.js", "Express.js", "MySQL"],
+        "urlGit": "https://github.com/DouglasLeal/gamaxp-desafio3",
+        "urlProd": ""
+    },
+    {
         "title": "Jogo da Velha",
         "description": "O bom e velho Jogo da Velha.",
         "image": "./assets/img/velha.png",
